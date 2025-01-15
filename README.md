@@ -34,18 +34,18 @@ To run this project, ensure you have the following installed:
 
 3. Install the required dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 
 4. Apply migrations:
    ```bash
-   python manage.py makemigrations
-   python manage.py migrate
+   python3 manage.py makemigrations
+   python3 manage.py migrate
    ```
 
 5. Start the development server:
    ```bash
-   python manage.py runserver
+   python3 manage.py runserver
    ```
 
 6. Visit the app in your browser:
